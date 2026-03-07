@@ -1,17 +1,18 @@
 # Figma Project
 
-This is a production-ready project generated from a Figma design. The project includes a basic HTML, CSS, and JavaScript structure to help you get started quickly.
+This is a **private, production-ready** project generated from a Figma design. The project includes a secure and organized code structure to help you get started quickly.
 
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Security](#security)
 - [License](#license)
 
 ## Features
 - Responsive design
 - Clean and organized code structure
+- Secure by default (see [SECURITY.md](SECURITY.md))
 - Ready for production deployment
 
 ## Installation
@@ -29,10 +30,15 @@ Open the `index.html` file in your browser to view the project.
 
 Modify the `index.html`, `styles.css`, and `script.js` files to match your Figma design. Add additional assets (images, fonts, etc.) to the project folder as needed.
 
-## Contributing
+## Security
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+This project follows security best practices:
+- Sensitive files (e.g., `.env`) are ignored via `.gitignore`.
+- Environment variables are used for secrets.
+- Regular dependency updates are recommended.
+
+For more details, see [SECURITY.md](SECURITY.md).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is **private and confidential**. All rights reserved. See the [LICENSE](LICENSE) file for details.
